@@ -1,0 +1,174 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": "50",
+    "address": "America",
+    "language": "eng",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    },
+    "name": "Green Street",
+    "phone_number": "(+91) 983 893 3937",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com"
+}
+HTTP/1.1 200 OK
+Date: Fri, 04 Sep 2026 23:40:11 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "044d6149760d6353e22c8fd01f15cf3c",
+    "scope": "APP",
+    "reference": "d4b77b2b516c0cd4f2f66b8a927d5bb9d4b77b2b516c0cd4f2f66b8a927d5bb9",
+    "id": "d4b77b2b516c0cd4f2f66b8a927d5bb9"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=044d6149760d6353e22c8fd01f15cf3c
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=044d6149760d6353e22c8fd01f15cf3c
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Sep 2026 23:40:12 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 230
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Green Street",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "America",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "eng"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": "50",
+    "address": "NewYork",
+    "language": "French",
+    "location": {
+        "lat": "-38.383494",
+        "lng": "33.427362"
+    },
+    "name": "Yellow Street",
+    "phone_number": "(+91) 983 893 3937",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com"
+}
+HTTP/1.1 200 OK
+Date: Fri, 04 Sep 2026 23:40:15 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "e0fe0fe2b707cc86ddec6bdfaaecbf9d",
+    "scope": "APP",
+    "reference": "fd8ed37b8867081ce9f27b656e995930fd8ed37b8867081ce9f27b656e995930",
+    "id": "fd8ed37b8867081ce9f27b656e995930"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=e0fe0fe2b707cc86ddec6bdfaaecbf9d
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=e0fe0fe2b707cc86ddec6bdfaaecbf9d
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 04 Sep 2026 23:40:15 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 234
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Yellow Street",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "NewYork",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "French"
+}
