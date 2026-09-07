@@ -16,5 +16,5 @@ public class Location {
 	public void setLng(String lng) {
 		this.lng = lng;
 	}
-
+//Checking commit 1
 }
