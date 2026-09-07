@@ -17,4 +17,5 @@ public class Location {
 		this.lng = lng;
 	}
 //Checking commit 1
+	// This change is made on develop branch
 }
